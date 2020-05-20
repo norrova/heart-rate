@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heart rate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <svg width="auto" height="auto">
+        <defs>
+          <linearGradient id="gradient">
+            <stop offset="0%" stop-color="#fff" stop-opacity="0" />
+            <stop offset="50%" stop-color="#fff" stop-opacity="1" />
+            <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+          </linearGradient>
+          <filter id="shadow">
+            <feDropShadow
+              dx="4"
+              dy="4"
+              stdDeviation="0.5"
+              flood-color="#fff"
+              flood-opacity="0.1"
+            />
+          </filter>
+        </defs>
+        <polyline
+          points="
+          0, 50 
+          40, 50 
+          50, 80
+          60, 0
+          70, 65
+          75, 50
+      
+          115, 50
+          120, 80
+          130, 0
+          140, 65
+          145, 50
+      
+          185, 50
+          190, 80
+          200, 0
+          210, 65
+          215, 50
+          
+          255, 50
+          260, 80
+          270, 0
+          280, 65
+          285, 50
+          
+          325, 50
+          330, 80
+          340, 0
+          350, 65
+          355, 50
+          "
+        />
+      </svg>
+    </div>
+  </body>
+</html>
